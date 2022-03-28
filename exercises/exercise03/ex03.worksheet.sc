@@ -72,6 +72,7 @@ trait Tree[T]:
 
 
 
+// Question 5
 // Define the function sortedList, which takes an unsorted list where no two elements are equal, and returns a new list that contains all the elements of the previous list (and only those), in increasing order.
 
 def sortedList[T](leq: (T, T) => Boolean, ls: List[T]): List[T] =
@@ -82,6 +83,7 @@ def sortedList[T](leq: (T, T) => Boolean, ls: List[T]): List[T] =
 
 
 // Hint: you might need to define some auxiliary functions.
+
 
 
 // Question 6
